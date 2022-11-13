@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fastabiqullll</title>
+</head>
+<body>
+	<h1>Are You Gay???</h1>
+	<button onclick="yes()">Yess</button>
+	<button onclick="no(this)">No</button>
+
+	<script>
+		function yes(){
+			alert("Ternyata selama Ini Lo Gay Yaaa...");
+		}
+		function no(btn){
+			btn.style.position = "absolute";
+			btn.style.top = `${Math.random() * 300}px`;
+			btn.style.left = `${Math.random() * 300}px`;
+		}
+	</script>
+</body>
+</html>
